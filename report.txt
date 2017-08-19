@@ -1,0 +1,53 @@
+a.
+i) Problem definition:
+   implement a part (module) of certain OS, which determines if the
+system is in safe state or unsafe state 
+
+ Program starts, it must read the input file (“input.txt”) that contains all the information
+about processes and system resources. By reading the input file, your program decides if the
+system is in safe state or unsafe state. In addition, if the system is in safe state, your program
+must display the sequence of processes that satisfies safety criteria
+
+ii)Proposed solution:
+
+ 1.Create Input file which will have required input information
+ 2.Read file and get all the data and allocated into arrays
+ 3.Determine safe or unsafe
+ 
+
+ 
+
+
+b) Results :
+
+ Input :
+ Number of Processes: 5
+Number of Resource Types: 3
+Allocation
+0 1 0
+2 0 0
+3 0 2
+2 1 1
+0 0 2
+Max
+7 5 3
+3 2 2
+9 0 2
+2 2 2
+4 3 3
+Total
+10 5 7
+Available
+3 3 2 
+
+
+Output:
+
+Allocated process : 0
+Allocated process : 1
+Allocated process : 2
+Allocated process : 3
+Safely allocated
+
+
+c) No Bugs
